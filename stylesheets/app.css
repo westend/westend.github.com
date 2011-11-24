@@ -37,6 +37,13 @@ div#gallery embed {
     height: 525px;
 }
 
+h2.quote_2 {
+    margin: 0 0 0 160px;
+}
+
+img.quote_image {
+    margin: 50px 0 0 0;
+}
 
 
 /* -----------------------------------------
