@@ -29,7 +29,9 @@ div.facebook_widget {
     margin: 0 0 15px 0;
 }
 
-
+div#gallery embed {
+    height: 525px;
+}
 
 
 
