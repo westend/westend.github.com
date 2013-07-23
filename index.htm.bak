@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <meta name="keywords" content="volunteer, westend, singapore, intellectual disabled, myg, minds" >
+    <title>Westend Project :: Minds Youth Group</title>
+
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+  </head>
+  <body>
+
+    <!-- container -->
+    <div class="container">
+
+      <!-- header -->
+      <div class="row">
+	<h1><a href="http://www.westend.myg.org.sg">Westend</a></h1>
+      </div>
+
+      <!-- navigation -->
+      <div class="row">
+	<dl class="nice tabs">
+	  <dd><a href="index.htm" class="active">Home</a></dd>
+	  <dd><a href="about.htm">About</a></dd>
+	  <dd><a href="programmes.htm">Programmes</a></dd>
+	  <dd><a href="gallery.htm">Gallery</a></dd>
+	  <dd><a href="join.htm">Join us</a></dd>
+	</dl>
+      </div>
+
+      <!-- content -->
+<!--	
+	<div class="row">
+	<div class="eight columns">
+	  <h2 class="quote_1">Warming hearts</h2>
+	  <h2 class="quote_2">Enriching minds</h2>
+	  <img class="quote_image" src="images/gallery/SC1013.JPG"></img>
+	  <iframe src="https://www.google.com/calendar/embed?src=westendmyg%40gmail.com&ctz=Asia/Singapore" style="border: 0" width="650" height="500" frameborder="0" scrolling="no"></iframe>
+	</div>
+
+
+	<div class="four columns">
+
+	  <div class="facebook_widget">
+	    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmyg.westend&amp;width=250&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true&amp;appId=288900281150312" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:590px;" allowTransparency="true"></iframe>
+	  </div>
+
+	  <div class="twitter_widget">
+	    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	    <script>
+	      new TWTR.Widget({
+	      version: 2,
+	      type: 'profile',
+	      rpp: 4,
+	      interval: 30000,
+	      width: 250,
+	      height: 300,
+	      theme: {
+	      shell: {
+	      background: '#333333',
+	      color: '#ffffff'
+	      },
+	      tweets: {
+	      background: '#ffffff',
+	      color: '#000000',
+	      links: '#072deb'
+	      }
+	      },
+	      features: {
+	      scrollbar: false,
+	      loop: false,
+	      live: false,
+	      behavior: 'all'
+	      }
+	      }).render().setUser('westend_myg').start();
+	    </script>
+	  </div>
+
+	</div>
+      </div>
+
+-->
+      <!-- footer -->
+      <div class="row">
+	<div class="footer">
+	  &copy; 2011 Westend: A project of <a href="http://www.myg.org.sg">Minds Youth Group</a>
+	</div>
+      </div>
+
+    </div>
+    <!-- container -->
+
+
+
+
+    <!-- Included JS Files -->
+    <script src="javascripts/jquery.1.6.4.min.js"></script>
+    <script src="javascripts/app.js"></script>
+
+  </body>
+</html>
