@@ -6,3 +6,6 @@
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
   Software: Coda, Textmate, Git
+  
+  
+/* Decisded to add some lame comments to see if this will show up >< */
